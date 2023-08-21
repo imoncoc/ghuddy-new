@@ -32,7 +32,6 @@ const Navbar = () => {
       <Banner></Banner>
       <SearchingSection></SearchingSection>
       <Tours></Tours>
-      {/* <Header></Header> */}
     </>
   );
 }

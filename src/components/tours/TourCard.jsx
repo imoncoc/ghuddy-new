@@ -12,7 +12,7 @@ import "swiper/css";
 
 
 
-const TourCard = () => {
+const TourCard = ({children}) => {
     const { hotels, activeCategory } = useContext(AuthContext);
 
     console.log(hotels)
@@ -20,7 +20,8 @@ const TourCard = () => {
     
   return (
     <div className="">
-      <div className="xl:max-w-[1100px] md:max-w-[765px] md:px-[16px] max-w-[343px] px-[0px] xl:px-[0px]   mx-auto">
+      <div className="xl:max-w-[1100px] md:max-w-[765px] md:px-[16px] max-w-[343px] px-[0px] xl:px-[0px] mx-auto">
+        <h2 className='text-[18px] xl:text-base24 text-txt-primary_light mt-[8px]  font-medium leading-[140%]'>{children}</h2>
         <Swiper
           id="customSwiper"
           slidesPerView={"auto"}
@@ -55,15 +56,17 @@ const TourCard = () => {
             },
           }}
         >
-          {hotels.map((item) => (
+          {hotels.map((item, indx) => (
             <SwiperSlide
               key={item.rpredi}
-              className="swiper-slide-margin flex flex-col customWrapper"
+              className={`swiper-slide-margin flex flex-col customWrapper ${indx === 0? 'pl-[4px]' : ''}`}
             >
               <TourCardBox hotel={item}></TourCardBox>
             </SwiperSlide>
           ))}
         </Swiper>
+
+      <div className='pt-[2px] pb-[16px] xl:pt-[22px]  xl:pb-[32px] text-base16 underline underline-offset-2  text-center text-txt-primary_light'>Show All</div>
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ const SearchingSection = () => {
     return (
         <Container>
             <div className='bg-bg-white '>
-                <div className='xl:max-w-[1100px]  md:max-w-[765px] md:px-[16px] max-w-[375px] px-[18px] xl:px-[0px] h-full    mx-auto '>
+                <div className='xl:max-w-[1100px]  md:max-w-[765px] md:px-[16px] max-w-[375px] px-[18px] xl:px-[0px] h-full mx-auto'>
 
                     {/* <div className='grid grid-cols-2 gap-4 place-content-center h-full'> */}
-                    <div className='hidden md:flex items-center justify-between h-full my-[16px]'>
+                    <div className='hidden xl:flex items-center justify-between h-full my-[16px]'>
                         <div className='flex'>
                             <div className='flex items-center border-[1px] border-btn-secondary py-3 px-14 text-[14px] rounded-[300px] mr-4'>
                                 <span className='mr-1 text-btn-secondary'>Price</span>
@@ -46,8 +46,8 @@ const SearchingSection = () => {
                     </div>
 
                     {/* TODO: Mobile */}
-                    <div className='md:hidden flex flex-row items-center justify-between gap-[16px]  my-[16px]'>
-                        <div className='flex items-center justify-center py-[12px] px-[32px] h-[32px] w-[104px]  border-[1px] rounded-full text-base14 text-btn-secondary font-normal'>
+                    <div className='xl:hidden flex flex-row items-center justify-between md:items-start md:justify-start gap-[16px]  my-[16px]'>
+                        <div className='flex items-center justify-center py-[12px] px-[32px] h-[32px] w-[103.6666px]  border-[1px] rounded-full text-base14 text-btn-secondary font-normal'>
                             <span className='mr-[8px]'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                                     <g clipPath="url(#clip0_23845_5989)">
@@ -63,7 +63,7 @@ const SearchingSection = () => {
                                 </svg>
                             </span>
                             Filter</div>
-                        <div className='flex items-center justify-center   h-[32px] w-full  border-[1px] rounded-full text-base14 text-btn-secondary'>
+                        <div className='flex items-center justify-center   h-[32px] w-[103.667px]  border-[1px] rounded-full text-base14 text-btn-secondary'>
                             <span className='mr-[8px]'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                                     <g clipPath="url(#clip0_23845_56268)">
@@ -79,7 +79,7 @@ const SearchingSection = () => {
                                 </svg>
                             </span>
                             Sort By</div>
-                        <div className='flex items-center justify-center py-[12px] px-[32px] h-[32px] w-[104px]  border-[1px] rounded-full text-base14 text-btn-secondary'>
+                        <div className='flex items-center justify-center py-[12px] px-[32px] h-[32px] w-[103.66667px]  border-[1px] rounded-full text-base14 text-btn-secondary'>
                             <span className='mr-[8px]'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                                     <g clipPath="url(#clip0_23845_56346)">

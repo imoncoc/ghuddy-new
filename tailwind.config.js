@@ -14,7 +14,7 @@ export default {
         md: '768px',
         // => @media (min-width: 768px) { ... }
 
-        lg: '1024px',
+        lg: '1024px', 
         // => @media (min-width: 1024px) { ... }
 
         xl: '1280px',
@@ -87,6 +87,7 @@ export default {
         btn: {
             primary: '#376576',
             secondary: '#4E90A8',
+            third: '#2E6980',
             light: '#D3E3E9',
             base: '#FFFBEF',
             warning: '#FEE29A',
@@ -100,6 +101,8 @@ export default {
             inActive: '#B3C2C7',
             inactive: '#B3C2C7',
             hoverSelectItem: '#EBF4F7',
+            border_light: '#879FA8',
+            border_lighter: '#DDE7EB'
         },
         txt: {
             primary: '#2A220E',
