@@ -1,4 +1,4 @@
-
+import CitiesToVisit from '../citiesToVisit/CitiesToVisit';
 import Banner from '../header/Banner'
 import SearchingSection from '../header/SearchingSection'
 import Tours from '../tours/Tours'

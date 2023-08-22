@@ -1,0 +1,56 @@
+
+.visit_img{
+    /* --semitransparent-background-dark: rgba(20, 43, 51, 0.40);
+    background: var(--semitransparent-background-dark) url('./public/blue-sky.jpg') center/cover no-repeat;
+    border-radius: 12px; */
+   
+    background: linear-gradient(rgba(20, 43, 51, 0.40), rgba(20, 43, 51, 0.40)), url('https://images.unsplash.com/photo-1612251557267-4d2ef64bccb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80') no-repeat center ;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.centered_visit_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Custom Swipper button */
+#customButtonSwiper > div.swiper-button-prev,
+#customButtonSwiper > div.swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 2%) !important;
+}
+
+#customButtonSwiper > div.swiper-button-next:after,
+#customButtonSwiper > div.swiper-rtl .swiper-button-prev:after {
+    content: 'arrow' !important;
+}
+
+#customButtonSwiper > div.swiper-button-next {
+    background-image: url('/public/Line-39.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+#customButtonSwiper > div.swiper-button-next::after {
+    display: none;
+}
+
+#customButtonSwiper > div.swiper-button-prev {
+    background-image: url('/public/Line-40.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+#customButtonSwiper > div.swiper-button-prev::after {
+    display: none;
+}
+
+
+
+

@@ -102,7 +102,8 @@ export default {
             inactive: '#B3C2C7',
             hoverSelectItem: '#EBF4F7',
             border_light: '#879FA8',
-            border_lighter: '#DDE7EB'
+            border_lighter: '#DDE7EB',
+            trip_btn: '#4094B2'
         },
         txt: {
             primary: '#2A220E',
@@ -113,6 +114,7 @@ export default {
             ash: '#AEAEB2',
             deletedItemTxtColor: '#8686868a',
             primary_light: '#142B33',
+            trip_description: '#466773'
         },
     },
     extend: {

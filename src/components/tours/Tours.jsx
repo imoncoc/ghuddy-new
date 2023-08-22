@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import Categories from '../categories/Categories'
 import TourCard from './TourCard';
+import Trips from '../trips/trips';
+import CitiesToVisit from '../citiesToVisit/CitiesToVisit';
 
 const Tours = () => {
   const [tourTypes, setTourTypes] = useState("");
@@ -22,6 +24,21 @@ const Tours = () => {
       </TourCard>
       <TourCard>
         {"Deals"}
+      </TourCard>
+      <Trips title={"Corporate trip?"} description={"Contact us for special quotation!"} btnData={"Get a Quotation"}></Trips>
+      <TourCard>
+        {"Hotels"}
+      </TourCard>
+      <TourCard>
+        {"Deals"}
+      </TourCard>
+      <Trips title={"Require Trip Assistance?"} description={"Get your Trip organised for you!"} btnData={"Get a Quotation"}></Trips>
+      <TourCard>
+        {"Best Activities"} 
+      </TourCard>
+      <CitiesToVisit></CitiesToVisit>
+      <TourCard>
+        {"Promoted Tours & Activities"} 
       </TourCard>
       </div>
     </>
