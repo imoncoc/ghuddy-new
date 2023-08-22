@@ -16,7 +16,7 @@ const CitiesToVisit = () => {
             <div className=' bg-bg-white  '>
                 <div className='bg-bg-white  xl:max-w-[1100px] md:max-w-[765px] md:px-[16px] max-w-[343px] px-[0px] xl:px-[0px] h-[217px] xl:h-[402px] mx-auto '>
                     <div className='py-[0px] xl:pt-[32px]'>
-                        <h2 className='text-base18 xl:text-base24 font-medium tracking-[0.54px] leading-[140%] mb-[16px] pt-[12px] xl:mt-[32px]'>Cities to Visit</h2>
+                        <h2 className='text-base18 xl:text-base24 font-medium tracking-[0.54px] leading-[140%] mb-[16px] pt-[12px] '>Cities to Visit</h2>
 
                         {/* TODO: Desktop  */}
                         <div className='w-full hidden xl:grid grid-cols-4 gap-[16px]'>
