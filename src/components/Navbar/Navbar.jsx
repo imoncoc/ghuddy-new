@@ -1,4 +1,5 @@
 import CitiesToVisit from '../citiesToVisit/CitiesToVisit';
+import FaqSection from '../faqSection/FaqSection';
 import Banner from '../header/Banner'
 import SearchingSection from '../header/SearchingSection'
 import Subscribe from '../subscribe/Subscribe';
@@ -36,6 +37,7 @@ const Navbar = () => {
       <Tours></Tours>
       <TopCountries></TopCountries>
       <Subscribe></Subscribe>
+      <FaqSection></FaqSection>
     </>
   );
 }
