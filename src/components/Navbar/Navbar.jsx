@@ -5,6 +5,7 @@ import SearchingSection from '../header/SearchingSection'
 import Subscribe from '../subscribe/Subscribe';
 import TopCountries from '../topCountries/TopCountries';
 import Tours from '../tours/Tours'
+import Policy from '../policy/policy';
 
 const Navbar = () => {
   return (
@@ -38,6 +39,7 @@ const Navbar = () => {
       <TopCountries></TopCountries>
       <Subscribe></Subscribe>
       <FaqSection></FaqSection>
+      <Policy></Policy>
     </>
   );
 }

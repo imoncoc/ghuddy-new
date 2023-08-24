@@ -14,7 +14,7 @@ const FaqSection = () => {
                     </div>
                     <div className='flex items-center gap-[12px]'>
                         <div className='border-[1px] border-btn-third w-[32px] h-[32px] xl:w-[38px] xl:h-[38px] rounded-[20px] flex items-center justify-center p-[10px]'><img src="./public/group.png" alt="" /></div>
-                        <p className='text-base16 text-txt-primary_light'>Do I need to meet my host?</p>
+                        <p className='text-base16 text-txt-primary_light'>Do I need to meet my host?</p>    
                     </div>
                     <div className='flex items-center gap-[12px]'>
                         <div className='border-[1px] border-btn-third w-[32px] h-[32px] xl:w-[38px] xl:h-[38px] rounded-[20px] flex items-center justify-center p-[10px]'><img src="./public/group.png" alt="" /></div>
