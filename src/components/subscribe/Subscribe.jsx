@@ -1,5 +1,7 @@
 import React from 'react'
 
+import carbon_send from '../../../public/carbon_send-alt.png'
+
 const Subscribe = () => {
     return (
         <div className='w-full'>
@@ -12,16 +14,16 @@ const Subscribe = () => {
                             <p className='text-base14 xl:text-base16 text-txt-primary_light mt-[12px] xl:my-[24px] w-[343px] md:w-[452px] xl:w-full'>If you’d like to receive interesting deals, fill in your email and submit</p>
                             <p className='text-base14 xl:text-base16 text-txt-primary_light mb-[24px] xl:mb-[32px]'>We Promise you, we will not spam!</p>
                             {/* FIXME: Input field */}
-                            <div className="relative w-full md:w-[452px] xl:w-full ">
+                            <div className="relative w-full md:w-[452px] xl:w-[526px] ">
                                 <input
                                     type="email"
-                                    className="w-full h-[56px] py-[10px] px-[24px] border-[1px] text-txt-primary_light border-btn-border_lighter rounded-full focus:outline-none focus:border-blue-500 text-base16"
+                                    className="w-full h-[44px] xl:h-[56px] py-[10px] px-[24px] border-[1px] text-txt-primary_light border-btn-border_lighter rounded-full focus:outline-none focus:border-blue-500 text-base16"
                                     placeholder="Enter email address"
                                 />
                                 <button
-                                    className="absolute top-0 right-0 h-[56px] w-[56px] flex items-center justify-center bg-btn-secondary text-white rounded-full focus:outline-none"
+                                    className="absolute top-0 right-0 h-[44px] w-[44px] xl:h-[56px] xl:w-[56px] flex items-center justify-center bg-btn-secondary text-white rounded-full focus:outline-none"
                                 >
-                                    <img src="/public/carbon_send-alt.png" alt="" />
+                                    <img src={carbon_send} alt="" />
                                 </button>
                             </div>
                         </div>
