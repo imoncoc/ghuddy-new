@@ -1,4 +1,4 @@
-import CitiesToVisit from '../citiesToVisit/CitiesToVisit';
+import { Link } from 'react-router-dom';
 import Banner from '../header/Banner'
 import SearchingSection from '../header/SearchingSection'
 import TopCountries from '../topCountries/TopCountries';
@@ -15,6 +15,7 @@ const Navbar = () => {
                 <h2>Ghuddy</h2>
               </div>
               <div className="flex flex-row items-center gap-[24px]">
+                <Link to={`/reactQuills`} className='hidden md:flex cursor-pointer hover:text-btn-secondary'>React Quills</Link>
                 <p className='hidden md:flex'>Find Lodging</p>
                 <p className='hidden md:flex'>My Favourites</p>
                 <p className='hidden md:flex'>Get Help</p>
